@@ -1,8 +1,8 @@
 const lodash = require("lodash");
-const ruArt = require("./russian.json");
-const itArt = require("./italian.json");
-const spArt = require("./spanish.json");
-const americanArt = require("./american.json");
+const ruArt = require("./data-json/russian.json");
+const itArt = require("./data-json/italian.json");
+const spArt = require("./data-json/spanish.json");
+const americanArt = require("./data-json/american.json");
 
 const pampidouParser = file =>
   file.results
